@@ -1,0 +1,34 @@
+body {
+    background-color: #6EC3FA;
+    margin-top: 60px;
+}
+
+.card {
+    margin-top: 30px;
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-top: 90px;
+        background-color: white;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
